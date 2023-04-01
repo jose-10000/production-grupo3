@@ -32,7 +32,7 @@ pipeline{
 		stage('Push') {
 
 			steps {
-				sh 'docker push jose10000/pruction-grupo3:v1.$BUILD_NUMBER'
+				sh 'docker push jose10000/production-grupo3:v1.$BUILD_NUMBER'
 			}
 		}
 	}
